@@ -13,7 +13,11 @@ end
 
 def take_a_number(katz_deli, name)
   katz_deli << name
+<<<<<<< HEAD
     puts  "Welcome, #{name}. You are number #{katz_deli.length} in line."
+=======
+    puts  "Welcome, #{name}. You are number #{index} in line."
+>>>>>>> ba99e3bac33dcf0c5daa0d973c1c59a8dd50b683
 end
 
 def now_serving(deli)
